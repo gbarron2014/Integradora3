@@ -16,6 +16,8 @@ import { EntregasProveedorComponent } from './components/entregas-proveedor/entr
 import { PedidosAProveedorComponent } from './components/pedidos-a-proveedor/pedidos-a-proveedor.component';
 import { LoginComponent } from './components/login/login.component';
 import { ProveedoresComponent } from './components/proveedores/proveedores.component';
+import { CancelarPedidoComponent } from './components/cancelar-pedido/cancelar-pedido.component';
+import { ReportesComponent } from './components/reportes/reportes.component';
 
 
 @NgModule({
@@ -32,7 +34,9 @@ import { ProveedoresComponent } from './components/proveedores/proveedores.compo
     EntregasProveedorComponent,
     PedidosAProveedorComponent,
     LoginComponent,
-    ProveedoresComponent
+    ProveedoresComponent,
+    CancelarPedidoComponent,
+    ReportesComponent
   ],
   imports: [
     BrowserModule,

@@ -13,6 +13,8 @@ import { EntregasProveedorComponent } from './components/entregas-proveedor/entr
 import { LoginComponent } from './components/login/login.component';
 import { PedidosAProveedorComponent } from './components/pedidos-a-proveedor/pedidos-a-proveedor.component';
 import { ProveedoresComponent } from './components/proveedores/proveedores.component';
+import { CancelarPedidoComponent } from './components/cancelar-pedido/cancelar-pedido.component';
+import { ReportesComponent } from './components/reportes/reportes.component';
 
 const routes: Routes = [
   {
@@ -65,7 +67,16 @@ const routes: Routes = [
   {
     path:'proveedores', 
     component:ProveedoresComponent
+  },
+  {
+    path:'cancelarpedido', 
+    component:CancelarPedidoComponent
+  }, 
+  {
+    path:'reportes', 
+    component:ReportesComponent
   }
+
 ];
 
 @NgModule({
